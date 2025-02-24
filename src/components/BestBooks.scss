@@ -1,0 +1,35 @@
+.best-books-container {
+  margin: 2rem auto;
+  max-width: 700px;
+  padding: 1rem;
+}
+
+.best-books-title {
+  text-align: center;
+  margin-bottom: 1.5rem;
+}
+
+.best-books-list {
+  list-style-type: none;
+  padding: 0;
+  margin: 0;
+
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+  gap: 1rem;
+}
+
+.best-book-item {
+  background-color: #f9f9f9;
+  padding: 1rem;
+  border-radius: 6px;
+  border: 1px solid #ddd;
+  font-size: 0.9rem;
+}
+
+.book-title,
+.book-author,
+.book-genre,
+.book-rating {
+  margin: 0.25rem 0;
+}

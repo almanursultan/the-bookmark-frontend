@@ -1,0 +1,27 @@
+.quote-of-the-day-container {
+  margin: 2rem 0;
+  border-radius: 8px;
+
+  .quote-title {
+    font-size: 1.6rem;
+  }
+
+  .quote-block {
+    font-style: italic;
+    margin-left: 1rem;
+    padding-left: 1rem;
+    border-left: 3px solid #dbc39a;
+
+    .quote-text {
+      font-size: 1.2rem;
+      margin-bottom: 0.5rem;
+    }
+
+    .quote-author {
+      display: block;
+      text-align: right;
+      margin-right: 2rem;
+      font-weight: bold;
+    }
+  }
+}

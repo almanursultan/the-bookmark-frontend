@@ -1,0 +1,18 @@
+@import url("https://fonts.googleapis.com/css2?family=EB+Garamond&display=swap");
+
+html,
+body {
+  margin: 0;
+  padding: 0rem;
+  box-sizing: border-box;
+
+  font-family: "Book Antiqua", "EB Garamond", serif;
+  background-color: #dae7dd;
+  color: #333;
+}
+
+*,
+*::before,
+*::after {
+  box-sizing: inherit;
+}

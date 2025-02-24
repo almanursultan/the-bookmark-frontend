@@ -1,0 +1,61 @@
+.recommended-books-container {
+  max-width: 800px;
+  margin: 0 auto;
+  padding: 20px;
+}
+
+.recommended-books-title {
+  margin-bottom: 1rem;
+  text-align: center;
+}
+
+.recommended-books-list {
+  list-style-type: none;
+  padding: 0;
+  margin: 0;
+
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+  gap: 1rem;
+}
+
+.recommended-book-item {
+  flex: 1 1 calc(50% - 20px);
+  display: flex;
+  align-items: flex-start;
+  margin-bottom: 20px;
+}
+
+.book-cover-image {
+  width: 120px;
+  height: auto;
+  margin-right: 16px;
+  object-fit: cover;
+  border-radius: 4px;
+}
+
+.book-details {
+  display: flex;
+  flex-direction: column;
+  justify-content: flex-start;
+}
+
+.book-title {
+  margin: 0 0 0.5rem 0;
+  font-size: 1.2rem;
+}
+
+.book-author,
+.book-genre,
+.book-description,
+.book-release-date,
+.book-publisher {
+  margin: 0.3rem 0;
+}
+
+.no-books-message {
+  text-align: center;
+  font-style: italic;
+  margin-top: 50px;
+  color: #666;
+}

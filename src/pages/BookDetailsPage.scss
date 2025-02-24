@@ -1,0 +1,22 @@
+.book-details-container {
+  max-width: 800px;
+  margin: 2rem auto;
+  padding: 1rem;
+}
+
+.book-details-title {
+  font-size: 1.5rem;
+  margin-bottom: 1rem;
+  text-align: center;
+}
+
+.book-details-image {
+  display: block;
+  max-width: 200px;
+  margin: 0.5rem auto 1rem;
+}
+
+.book-details-author,
+.book-details-description {
+  margin: 0.5rem 0;
+}
