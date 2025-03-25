@@ -8,6 +8,7 @@
   font-size: 1.5rem;
   margin-bottom: 1rem;
   text-align: center;
+  font-family: "Book Antiqua", serif;
 }
 
 .book-details-image {
@@ -19,4 +20,7 @@
 .book-details-author,
 .book-details-description {
   margin: 0.5rem 0;
+  font-style: italic;
+  color: #7c6e52;
+  margin-bottom: 1rem;
 }
