@@ -47,7 +47,7 @@ const BookDetails = () => {
         }}
         onClick={goToBookClub}
       >
-        Join Book Club
+        Join Book Club!
       </Button>
     </div>
   );
