@@ -5,7 +5,7 @@ const BookOfTheDay = ({ books }) => {
   const [bookOfTheDay, setBookOfTheDay] = useState(null);
 
   useEffect(() => {
-    if (books.length > 0) {
+    if (books && books.length > 0) {
       const today = new Date().toDateString();
       const seed = today
         .split("")
